@@ -9,7 +9,7 @@ header {
 nav {
 	width: 100%;
 	float: left;
-	padding: 0;
+	padding: 0px;
 	margin: 0 0 1em 0;
 	background-color: green;
 	overflow: auto;
@@ -18,7 +18,7 @@ nav {
 nav ul {
     list-style-type: none;
     margin: 0 auto;
-    width: 100%;
+    width: 75%;
     text-align: center;
     padding: 0;
     display: flex;
@@ -47,13 +47,14 @@ nav li a:hover {
 
 
 aside {
-	width: 15%;
+	width: 20%;
 	height: 100%;
 	float: right;
+	padding-bottom: 300px;
 	background-color: white;
 	background-image: url(http://www.literarygenius.info/images/william-shakespeare.jpg);
+	background-position: bottom center;
 	background-repeat: no-repeat;
-	background-position: center;
 	background-size: contain; 
 
 
@@ -76,13 +77,13 @@ aside li {
 
 #content {
 	background-color: gray;
-	width: 85%;
+	width: 80%;
 	margin: 0; 
 	padding: 0;
 }
 
 #content ul {
-	width: 85%;
+	width: 80%;
 	list-style-type: none;
 	margin: 0;
 
@@ -90,14 +91,14 @@ aside li {
 
 #content li {
 	text-align: center;
-	width: 85%;
+	width: 80%;
 	margin: 0;
 }
 
 
 footer p {
 	background-color: green;
-	width: 85%;
+	width: 80%;
 	margin: 0;
 	padding-top: 20px;
 	padding-bottom: 20px;
